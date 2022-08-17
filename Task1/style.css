@@ -63,3 +63,34 @@ form {
     font-size: 2em;
   }
 }
+
+#output {
+  display: flex;
+  gap: 2rem;
+  justify-content: center;
+
+}
+
+.notificationContainer {
+  display: flex;
+  align-items: baseline;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.notificationContainer h2 {
+  font-size: 23px;
+}
+
+.notification {
+  background-color: antiquewhite;
+  padding: 1.2rem;
+  border-radius: 5px;
+  font-size: 3rem;
+}
+
+.alert {
+  border: 2px solid red;
+  color: red;
+  font-size: 1.2rem;
+}
