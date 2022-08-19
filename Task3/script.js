@@ -18,9 +18,9 @@ const userCard = (cardData) => {
     let outputInnerHtml = '';
     cardData.forEach(el => {
         outputInnerHtml += `<div class='outputCard'>
-        <img class='cardImage' src="${el.url}" alt="github user image">
+        <img class='cardImage' src="${el.avatar_url}" alt="github user image">
         <h2 class='cardTitle'>${el.login}</h2>
-        </div>` 
+        </div>`
     });
     output.innerHTML = outputInnerHtml;
 }
