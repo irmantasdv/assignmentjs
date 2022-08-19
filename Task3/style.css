@@ -58,4 +58,23 @@
   padding: 30px;
   border-radius: 5px;
   background-color: #fff;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.outputCard {
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  border-radius: 2px;
+  padding: 2rem;
+  margin: 0.3rem 0;
+}
+
+.cardImage {
+  height: 200px;
+}
+
+.cardTitle {
+  text-align: center;
+  padding-top: 0.9rem;
 }
